@@ -10,7 +10,7 @@
                 <img
                   src="~/assets/images/promo-baner/banner-left.png"
                   alt="">
-                <span class="flato w600">FREE worldwide shipping & tax-free. Find out more</span>
+                <span class="flato w600">FREE worldwide shipping & tax-free.</span>
               </div>
               <div class="freeshoping-uk level-item">
                 <img
@@ -2301,6 +2301,10 @@
     height: 250px;
     top: 10%;
 }
+
+  .play-video img{
+    width: 50px;
+  }
 }
 
 @media only screen and (max-width: 375px){

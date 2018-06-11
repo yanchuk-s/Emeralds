@@ -527,9 +527,9 @@ header .nav-mybag a span{
 }
 
 .mobile-nav-content a{
-  height: 80px;
+  height: 70px;
   color: #3d4240;
-  font-size: 21px;
+  font-size: 18px;
   border-bottom: 1px solid #e6edea;
   position: relative;
   font-weight: 600;
@@ -551,9 +551,9 @@ header .nav-mybag a span{
 
 .nav-level-2 .level-2-header{
   background-color: #f7faf9;
-  height: 100px;
+  height: 70px;
   color: #555c59;
-  font-size: 22px;
+  font-size: 17px;
 }
 
 .nav-level-2 .level-2-header img{
@@ -561,9 +561,9 @@ header .nav-mybag a span{
 }
 
 .mobile-nav-content .nav-level-2 a{
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
-  margin-left: 22px;
+  margin-left: 16px;
   height: 70px;
 }
 
@@ -571,11 +571,13 @@ header .nav-mybag a span{
   border-bottom: 1px solid #d7dfdc;
 }
 
+
 .mobile-nav-content .nav-level-3 a{
   border: none;
   margin: 0;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 15px;
+  height: 50px;
 }
 
 .mobile-nav-content .nav-level-3 .nav-img{
@@ -627,6 +629,7 @@ header .nav-mybag a span{
   font-weight: 500;
   margin-top: 40px;
   font-size: 19px;
+  height: 50px;
 }
 /*MOBILE NAV END*/
 
@@ -898,6 +901,9 @@ footer .footer-bottom{
 
 
 @media only screen and (max-width: 768px){
+  .pt100{
+    padding: 50px 0;
+  }
   /* HEADER  */
   .container{margin:0 15px;}
   .section-header h3 {
@@ -1042,6 +1048,19 @@ footer .footer-bottom{
       display: none;
   }
 
+  footer .footer-list li {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  footer .footer-list li a{
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+  }
+
   .column-list{
       border-top: 1px solid #c6ccc9;
   }
@@ -1060,16 +1079,30 @@ footer .footer-bottom{
       margin: 0 5px;
   }
 
+  .social-mob{
+   margin: 20px 0!important;
+  }
+
+  .our-story,
+  .about-us,
+  .famous-emeralds{
+    margin-bottom: 50px;
+  }
+
   footer .bottom_footer{
       margin-top: 30px;
       padding-bottom: 30px;
+  }
+
+  .mobile-search .nav-search .mobile-chat{
+    height: 40px;
   }
 }
 
 @media only screen and (max-width: 375px){
   /* HEADER  */
   header .promo-header img {
-      margin-right: 1px;
+      margin-right: 10px;
   }
 
   header .promo-header span {
