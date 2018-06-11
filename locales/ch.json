@@ -1,0 +1,17 @@
+{
+  "home": {
+    "title": "Emeralds.com",
+    "introduction": "Emeralds.com的Vue.js前端 - 用於祖母綠松石和定制珠寶的在線市場",
+    "meta": "Emeralds.com的Vue.js前端 - 用於祖母綠松石和定制珠寶的在線市場",
+    "links": {
+      "about": "關於"
+    }
+  },
+  "about": {
+    "introduction": "測試另一個頁面",
+    "meta": "關於頁面的元數據",
+    "links": {
+      "home": "家"
+    }
+  }
+}

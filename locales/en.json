@@ -1,0 +1,17 @@
+{
+  "home": {
+    "title": "Emeralds.com",
+    "introduction": "The Vue.js front-end for Emeralds.com - online marketplace for emerald loose stones and custom designed jewelry",
+    "meta": "The Vue.js front-end for Emeralds.com - online marketplace for emerald loose stones and custom designed jewelry",
+    "links": {
+      "about": "About"
+    }
+  },
+  "about": {
+    "introduction": "Test another page",
+    "meta": "Metadata of about page",
+    "links": {
+      "home": "Home"
+    }
+  }
+}
