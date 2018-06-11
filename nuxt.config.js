@@ -21,6 +21,10 @@ module.exports = {
         href: 'https://fonts.googleapis.com/css?family=Lato|Lora|Playfair+Display|Raleway'
       },
       {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=latin-ext'
+      },
+      {
         crossorigin: 'anonymous',
         rel: 'stylesheet',
         href: 'https://use.fontawesome.com/releases/v5.0.13/css/all.css',
